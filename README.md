@@ -2,7 +2,8 @@
 [Badges]
 
 ##Introduction - 介绍
-
+参考介绍链接
+https://uestc.feishu.cn/docx/BJqydp00sobtCLxWR6tcaSi6nid
 ### Summary - 概要
 
 Brilliant_Lamp_clustering一套具有高灵活性，扩展性的边缘灯控系统，用于树莓派和Python来实现负责一组路灯的计算和控制任务
