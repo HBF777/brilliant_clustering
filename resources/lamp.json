@@ -1,0 +1,136 @@
+{
+  "lamps": [
+    {
+      "id": 1,
+      "name": "lamp1",
+      "serial": {
+        "serial_id": 1,
+        "end": "$",
+        "command": [
+         {
+           "A": "power_on",
+           "B": "power_off",
+           "C": "heartbeat",
+           "D": "error",
+           "F": "exception",
+                 "power_on" : "A",
+            "power_off" : "B",
+            "heartbeat" : "C",
+            "error" : "D",
+            "exception" : "E"
+         },
+         {
+           "1": "lamp1",
+           "2": "lamp2",
+           "3": "lamp3"
+         },
+         [
+           100,
+            80,
+            60,
+            40,
+            20,
+            null
+         ],
+          [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "n"
+          ]
+        ]
+      },
+      "uuid": "lamp-uuid-001"
+    },
+    {
+      "id": 2,
+      "name": "lamp2",
+      "serial": {
+        "serial_id": 2,
+        "end": "$",
+        "command": [
+         {
+           "A": "power_on",
+           "B": "power_off",
+           "C": "heartbeat",
+           "D": "error",
+           "F": "exception",
+                 "power_on" : "A",
+            "power_off" : "B",
+            "heartbeat" : "C",
+            "error" : "D",
+            "exception" : "E"
+         },
+         {
+           "1": "lamp1",
+           "2": "lamp2",
+           "3": "lamp3"
+         },
+         [
+            100,
+            80,
+            60,
+            40,
+            20,
+            null
+         ],
+          [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "n"
+          ]
+        ]
+      },
+      "uuid": "lamp-uuid-002"
+    },
+    {
+      "id": 3,
+      "name": "lamp3",
+      "serial": {
+        "serial_id": 3,
+        "end": "$",
+        "command": [
+         {
+           "A": "power_on",
+           "B": "power_off",
+           "C": "heartbeat",
+           "D": "error",
+           "F": "exception",
+           "power_on" : "A",
+            "power_off" : "B",
+            "heartbeat" : "C",
+            "error" : "D",
+            "exception" : "E"
+         },
+         {
+           "1": "lamp1",
+           "2": "lamp2",
+           "3": "lamp3"
+         },
+         [
+           100,
+            80,
+            60,
+            40,
+            20,
+            null
+         ],
+          [
+            "a",
+            "b",
+            "c",
+            "d",
+            "e",
+            "n"
+          ]
+        ]
+      },
+      "uuid": "lamp-uuid-003"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "sub": [
+    {
+      "name":  "ext_Humiture",
+      "isLamp": false,
+      "topic": "server/ext_monitor/pi-uuid-002",
+      "format": ""
+    },
+    {
+      "name": "builtin_Humiture",
+      "isLamp": false,
+      "topic": "server/builtin_monitor/pi-uuid-002",
+      "format": ""
+    },
+    {
+      "name":  "rain",
+      "isLamp": false,
+      "topic": "server/rain/pi-uuid-002",
+      "format": ""
+    },
+    {
+      "name":  "brightness",
+      "isLamp": false,
+      "topic": "server/brightness/pi-uuid-002",
+      "format": ""
+    },
+    {
+      "name": "gps",
+      "isLamp": false,
+      "topic": "server/gps/pi-uuid-002",
+      "format": ""
+    },
+     {
+      "name": "co2",
+      "isLamp": false,
+      "topic": "server/co2/pi-uuid-002",
+      "format": ""
+    },
+    {
+      "name": "lamp1",
+      "isLamp": true,
+      "topic": "brightness/pi-uuid-002/1",
+      "fun": "set_Light",
+      "format": ".*\"value\":(.*?),\"time\":(.*?)}.*",
+      "value": 1
+    },
+    {
+      "name": "lamp2",
+      "isLamp": true,
+      "topic": "brightness/pi-uuid-002/2",
+      "fun": "set_Light",
+      "format": ".*\"value\":(.*?),\"time\":(.*?)}.*",
+      "value": 1
+    },
+    {
+      "name": "lamp3",
+      "isLamp": true,
+      "topic": "brightness/pi-uuid-002/3",
+      "fun": "set_Light",
+      "format": ".*\"value\":(.*?),\"time\":(.*?)}.*",
+      "value": 1
+    },
+    {
+      "name": "lamp1",
+      "isLamp": true,
+      "topic": "switch/pi-uuid-002/1",
+      "format": ".*\"value\":(.*?),\"time\":(.*?)}.*",
+      "fun": "switch",
+      "value": 1
+    },
+    {
+      "name": "lamp2",
+      "isLamp": true,
+      "topic": "switch/pi-uuid-002/2",
+      "format": ".*\"value\":(.*?),\"time\":(.*?)}.*",
+      "fun": "switch",
+      "value": 1
+    },
+    {
+      "name": "lamp3",
+      "isLamp": true,
+      "topic": "switch/pi-uuid-002/3",
+      "format": ".*\"value\":(.*?),\"time\":(.*?)}.*",
+      "fun": "switch",
+      "value": 1
+    }
+  ],
+  "pub": [
+    {
+      "name": "builtin_Humiture",
+      "isLamp": false,
+      "topic": "builtin_monitor/pi-uuid-002",
+      "format": "{{\"data\":{{\"humidity\":{data[humidity]},\"temperature\":{data[temperature]},\"time\":{data[time]}}}}}"
+    },
+    {
+      "name": "ext_Humiture",
+      "isLamp": false,
+      "topic": "ext_monitor/pi-uuid-002",
+      "format": "{{\"data\":{{\"humidity\":{data[humidity]},\"temperature\":{data[temperature]},\"time\":{data[time]}}}}}"
+    },
+    {
+      "name": "gps",
+      "isLamp": false,
+      "topic": "gps/pi-uuid-002",
+      "format": "{{\"data\":{{\"longitude\":{data[longitude]},\"latitude\":{data[latitude]},\"time\":{data[time]}}}}}"
+    },
+    {
+      "name": "co2",
+      "isLamp": false,
+      "topic": "co2/pi-uuid-002",
+      "format": "{{\"data\":{{\"co2\":{data[co2]},\"time\":{data[time]}}}}}"
+    },
+    {
+      "name": "rain",
+      "isLamp": false,
+      "topic": "rain/pi-uuid-002",
+      "format": "{{\"data\":{{\"rain\":{data[rain]},\"time\":{data[time]}}}}}"
+    },
+    {
+      "name": "brightness",
+      "isLamp": false,
+      "topic": "brightness/pi-uuid-002",
+      "format": "{{\"data\":{{\"infrared\":{data[infrared]},\"visible\":{data[visible]},\"full_spectrum\":{data[full_spectrum]},\"time\":{data[time]}}}}}"
+    },
+    {
+      "name": "lamp1",
+      "isLamp": true,
+      "topic": "heartbeat/pi-uuid-002/1",
+      "format": "{{\"data\":{{\"online\":1,\"lightness\":{data[lightness]},\"time\":{data[time]}}}}}"
+    },
+    {
+      "name": "lamp2",
+      "isLamp": true,
+      "topic": "heartbeat/pi-uuid-002/2",
+      "format": "{{\"data\":{{\"online\":1,\"lightness\":{data[lightness]},\"time\":{data[time]}}}}}"
+    },
+    {
+      "name": "lamp3",
+      "isLamp": true,
+      "topic": "heartbeat/pi-uuid-002/3",
+      "format": "{{\"data\":{{\"online\":1,\"lightness\":{data[lightness]},\"time\":{data[time]}}}}}"
+    }
+  ]
+}

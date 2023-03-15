@@ -1,0 +1,69 @@
+{
+  "components" : [
+    {
+      "name": "ext_Humiture",
+      "component": "Humiture",
+
+        "device_code": "03",
+        "pins": {
+          "a": 16
+        },
+        "status": true
+    },
+    {
+      "name": "builtin_Humiture",
+      "component": "Humiture",
+        "device_code": "03",
+        "pins": {
+          "a": 16
+        },
+        "status": true
+
+    },
+    {
+      "name": "gps",
+      "component": "Gps",
+        "device_code": "08",
+        "pins": {
+          "a": 16
+        },
+        "status": true
+    },
+    {
+      "name": "luminance",
+      "component": "Luminance",
+      "device_code": "13",
+      "pins": {
+
+      },
+      "status": true
+    },
+     {
+      "name": "co2",
+      "component": "Co2",
+        "device_code": "22",
+        "pins": {
+
+        },
+        "status": true
+    },
+    {
+      "name": "rain",
+      "component": "Rain",
+        "device_code": "23",
+        "pins": {
+
+        },
+        "status": true
+    },
+    {
+      "name": "brightness",
+      "component": "Brightness",
+        "device_code": "24",
+        "pins": {
+
+        },
+        "status": true
+    }
+  ]
+}

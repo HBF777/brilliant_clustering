@@ -1,0 +1,787 @@
+2023-03-03 13:41:57,645 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 13:41:57,706 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 13:41:57,817 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:41:57,834 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 13:41:57,834 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 13:41:57,873 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 13:41:57,890 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 13:41:57,891 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 13:41:57,892 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 13:41:57,893 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 13:41:57,907 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 13:41:57,911 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 13:41:57,928 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 13:41:57,950 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 13:41:57,993 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677822117.989794}}'}加入发送队列
+2023-03-03 13:41:58,007 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677822117.989794
+  }
+}已经发送成功
+2023-03-03 13:42:49,448 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 100, 'time': '1234567890vv123'}}
+2023-03-03 13:42:49,626 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1a$
+2023-03-03 13:43:11,708 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 100, 'time': '1234567890vv123'}}
+2023-03-03 13:43:11,804 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1a$
+2023-03-03 13:45:27,987 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/co2/pi-uuid-002data:{'data': {'co2': 400, 'time': 1668835982}}
+2023-03-03 13:45:28,246 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'co2/pi-uuid-002', 'data': '{"data":{"co2":400,"time":1677822328.241027}}'}加入发送队列
+2023-03-03 13:45:28,266 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：co2/pi-uuid-002data:{
+  "data": {
+    "co2": 400,
+    "time": 1677822328.241027
+  }
+}已经发送成功
+2023-03-03 13:45:59,600 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'rain': 174, 'time': 1668844280}}
+2023-03-03 13:45:59,659 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1677822359.6594524}}'}加入发送队列
+2023-03-03 13:45:59,675 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1677822359.6594524
+  }
+}已经发送成功
+2023-03-03 13:46:10,885 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'rain': 174, 'time': 1668844280}}
+2023-03-03 13:46:10,923 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":99,"time":1677822370.9026446}}'}加入发送队列
+2023-03-03 13:46:10,975 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 99,
+    "time": 1677822370.9026446
+  }
+}已经发送成功
+2023-03-03 13:46:12,785 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'rain': 174, 'time': 1668844280}}
+2023-03-03 13:46:12,804 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":112,"time":1677822372.804709}}'}加入发送队列
+2023-03-03 13:46:12,824 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 112,
+    "time": 1677822372.804709
+  }
+}已经发送成功
+2023-03-03 13:46:17,062 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'rain': 174, 'time': 1668844280}}
+2023-03-03 13:46:17,123 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":84,"time":1677822377.0841548}}'}加入发送队列
+2023-03-03 13:46:17,164 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 84,
+    "time": 1677822377.0841548
+  }
+}已经发送成功
+2023-03-03 13:46:18,369 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'rain': 174, 'time': 1668844280}}
+2023-03-03 13:46:18,408 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":76,"time":1677822378.4024417}}'}加入发送队列
+2023-03-03 13:46:18,411 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 76,
+    "time": 1677822378.4024417
+  }
+}已经发送成功
+2023-03-03 13:46:19,497 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'rain': 174, 'time': 1668844280}}
+2023-03-03 13:46:19,528 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":75,"time":1677822379.5224855}}'}加入发送队列
+2023-03-03 13:46:19,552 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 75,
+    "time": 1677822379.5224855
+  }
+}已经发送成功
+2023-03-03 13:46:20,500 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'rain': 174, 'time': 1668844280}}
+2023-03-03 13:46:20,818 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":71,"time":1677822380.5440123}}'}加入发送队列
+2023-03-03 13:46:20,850 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 71,
+    "time": 1677822380.5440123
+  }
+}已经发送成功
+2023-03-03 13:46:21,915 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'rain': 174, 'time': 1668844280}}
+2023-03-03 13:46:21,932 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":66,"time":1677822381.9328482}}'}加入发送队列
+2023-03-03 13:46:21,976 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 66,
+    "time": 1677822381.9328482
+  }
+}已经发送成功
+2023-03-03 13:46:34,822 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/brightness/pi-uuid-002data:{'data': {'infrared': 1026, 'visible': 328701, 'full_spectrum': 328706, 'time': 1668857299}}
+2023-03-03 13:46:35,115 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'brightness/pi-uuid-002', 'data': '{"data":{"infrared":1028,"visible":31654433,"full_spectrum":31654916,"time":1677822395.1154542}}'}加入发送队列
+2023-03-03 13:46:35,148 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：brightness/pi-uuid-002data:{
+  "data": {
+    "infrared": 1028,
+    "visible": 31654433,
+    "full_spectrum": 31654916,
+    "time": 1677822395.1154542
+  }
+}已经发送成功
+2023-03-03 13:46:37,657 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/brightness/pi-uuid-002data:{'data': {'infrared': 1026, 'visible': 328701, 'full_spectrum': 328706, 'time': 1668857299}}
+2023-03-03 13:46:37,929 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'brightness/pi-uuid-002', 'data': '{"data":{"infrared":1028,"visible":31654433,"full_spectrum":31654916,"time":1677822397.9288886}}'}加入发送队列
+2023-03-03 13:46:37,962 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：brightness/pi-uuid-002data:{
+  "data": {
+    "infrared": 1028,
+    "visible": 31654433,
+    "full_spectrum": 31654916,
+    "time": 1677822397.9288886
+  }
+}已经发送成功
+2023-03-03 13:46:49,397 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'infrared': 1026, 'visible': 328701, 'full_spectrum': 328706, 'time': 1668857299}}
+2023-03-03 13:47:34,067 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:47:37,776 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:47:44,700 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:47:50,424 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:26,009 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:27,193 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:27,940 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:28,653 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:29,261 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:29,801 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:30,279 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:30,532 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:30,679 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:30,871 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:31,087 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:31,210 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:31,342 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:31,809 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:31,832 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:31,871 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:32,037 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:48:32,151 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:50:04,889 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:51:00,534 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:51:04,617 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:51:06,512 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:51:08,529 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:52:45,212 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 13:52:47,346 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 13:53:22,217 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:53:23,817 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:53:29,526 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 13:53:42,425 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 13:53:49,084 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 13:53:50,864 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 13:53:52,153 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 13:53:53,686 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 13:53:54,630 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 13:53:55,463 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 13:53:56,396 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 13:54:07,061 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39192499307407,"latitude":22.52571603466762,"time":1677822847.061847}}'}加入发送队列
+2023-03-03 13:54:07,086 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39192499307407,
+    "latitude": 22.52571603466762,
+    "time": 1677822847.061847
+  }
+}已经发送成功
+2023-03-03 13:54:10,926 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39193666665942,"latitude":22.525711042114395,"time":1677822850.9147034}}'}加入发送队列
+2023-03-03 13:54:10,949 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39193666665942,
+    "latitude": 22.525711042114395,
+    "time": 1677822850.9147034
+  }
+}已经发送成功
+2023-03-03 13:54:16,955 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.3919483404623,"latitude":22.525709383049993,"time":1677822856.95501}}'}加入发送队列
+2023-03-03 13:54:16,956 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.3919483404623,
+    "latitude": 22.525709383049993,
+    "time": 1677822856.95501
+  }
+}已经发送成功
+2023-03-03 13:54:22,527 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39194834068576,"latitude":22.525712716544117,"time":1677822862.5275936}}'}加入发送队列
+2023-03-03 13:54:22,530 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39194834068576,
+    "latitude": 22.525712716544117,
+    "time": 1677822862.5275936
+  }
+}已经发送成功
+2023-03-03 13:54:27,037 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39195167597711,"latitude":22.525711051991117,"time":1677822867.037211}}'}加入发送队列
+2023-03-03 13:54:27,038 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39195167597711,
+    "latitude": 22.525711051991117,
+    "time": 1677822867.037211
+  }
+}已经发送成功
+2023-03-03 13:54:30,579 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39195167597711,"latitude":22.525711051991117,"time":1677822870.5793903}}'}加入发送队列
+2023-03-03 13:54:30,580 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39195167597711,
+    "latitude": 22.525711051991117,
+    "time": 1677822870.5793903
+  }
+}已经发送成功
+2023-03-03 13:54:34,435 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39195334356674,"latitude":22.525709386340928,"time":1677822874.4251716}}'}加入发送队列
+2023-03-03 13:54:34,450 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39195334356674,
+    "latitude": 22.525709386340928,
+    "time": 1677822874.4251716
+  }
+}已经发送成功
+2023-03-03 13:54:38,294 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39195334356674,"latitude":22.525709386340928,"time":1677822878.2938974}}'}加入发送队列
+2023-03-03 13:54:38,301 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39195334356674,
+    "latitude": 22.525709386340928,
+    "time": 1677822878.2938974
+  }
+}已经发送成功
+2023-03-03 13:54:43,917 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39195167597711,"latitude":22.525711051991117,"time":1677822883.9066854}}'}加入发送队列
+2023-03-03 13:54:43,953 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39195167597711,
+    "latitude": 22.525711051991117,
+    "time": 1677822883.9066854
+  }
+}已经发送成功
+2023-03-03 13:54:44,615 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39195167597711,"latitude":22.525711051991117,"time":1677822884.6153035}}'}加入发送队列
+2023-03-03 13:54:44,649 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39195167597711,
+    "latitude": 22.525711051991117,
+    "time": 1677822884.6153035
+  }
+}已经发送成功
+2023-03-03 13:54:48,344 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39195167597711,"latitude":22.525711051991117,"time":1677822888.3386874}}'}加入发送队列
+2023-03-03 13:54:48,351 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39195167597711,
+    "latitude": 22.525711051991117,
+    "time": 1677822888.3386874
+  }
+}已经发送成功
+2023-03-03 13:54:55,057 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39195334367847,"latitude":22.52571105308799,"time":1677822895.0577784}}'}加入发送队列
+2023-03-03 13:54:55,078 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39195334367847,
+    "latitude": 22.52571105308799,
+    "time": 1677822895.0577784
+  }
+}已经发送成功
+2023-03-03 13:54:57,042 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 13:54:57,884 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39195334379019,"latitude":22.525712719835052,"time":1677822897.8843}}'}加入发送队列
+2023-03-03 13:54:57,936 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39195334379019,
+    "latitude": 22.525712719835052,
+    "time": 1677822897.8843
+  }
+}已经发送成功
+2023-03-03 13:55:01,196 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39195501137972,"latitude":22.52571105418475,"time":1677822901.0789216}}'}加入发送队列
+2023-03-03 13:55:01,211 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39195501137972,
+    "latitude": 22.52571105418475,
+    "time": 1677822901.0789216
+  }
+}已经发送成功
+2023-03-03 13:55:03,728 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.3919516763123,"latitude":22.525716052232326,"time":1677822903.7287023}}'}加入发送队列
+2023-03-03 13:55:03,737 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.3919516763123,
+    "latitude": 22.525716052232326,
+    "time": 1677822903.7287023
+  }
+}已经发送成功
+2023-03-03 13:55:05,301 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39194834113269,"latitude":22.525719383532415,"time":1677822905.3011515}}'}加入发送队列
+2023-03-03 13:55:05,307 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39194834113269,
+    "latitude": 22.525719383532415,
+    "time": 1677822905.3011515
+  }
+}已经发送成功
+2023-03-03 13:55:06,394 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 13:55:08,755 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39194667365442,"latitude":22.52572271592939,"time":1677822908.7551339}}'}加入发送队列
+2023-03-03 13:55:08,777 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39194667365442,
+    "latitude": 22.52572271592939,
+    "time": 1677822908.7551339
+  }
+}已经发送成功
+2023-03-03 13:55:12,759 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39194167099544,"latitude":22.52572937962554,"time":1677822912.7594583}}'}加入发送队列
+2023-03-03 13:55:12,780 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39194167099544,
+    "latitude": 22.52572937962554,
+    "time": 1677822912.7594583
+  }
+}已经发送成功
+2023-03-03 13:55:13,229 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 13:55:17,472 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39193833592611,"latitude":22.525734377671498,"time":1677822917.4720378}}'}加入发送队列
+2023-03-03 13:55:17,474 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39193833592611,
+    "latitude": 22.525734377671498,
+    "time": 1677822917.4720378
+  }
+}已经发送成功
+2023-03-03 13:55:22,449 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.391935000968,"latitude":22.525741042464176,"time":1677822922.4231112}}'}加入发送队列
+2023-03-03 13:55:22,482 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.391935000968,
+    "latitude": 22.525741042464176,
+    "time": 1677822922.4231112
+  }
+}已经发送成功
+2023-03-03 13:55:26,521 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39192999830648,"latitude":22.525747706158203,"time":1677822926.521038}}'}加入发送队列
+2023-03-03 13:55:26,555 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39192999830648,
+    "latitude": 22.525747706158203,
+    "time": 1677822926.521038
+  }
+}已经发送成功
+2023-03-03 13:55:31,260 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.391926663012,"latitude":22.525749370708457,"time":1677822931.2606237}}'}加入发送队列
+2023-03-03 13:55:31,555 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.391926663012,
+    "latitude": 22.525749370708457,
+    "time": 1677822931.2606237
+  }
+}已经发送成功
+2023-03-03 13:55:34,224 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39192499553215,"latitude":22.525752703104153,"time":1677822934.2240198}}'}加入发送队列
+2023-03-03 13:55:34,243 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39192499553215,
+    "latitude": 22.525752703104153,
+    "time": 1677822934.2240198
+  }
+}已经发送成功
+2023-03-03 13:55:37,475 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39192166057212,"latitude":22.525759367895255,"time":1677822937.4756126}}'}加入发送队列
+2023-03-03 13:55:37,478 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 13:55:37,496 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39192166057212,
+    "latitude": 22.525759367895255,
+    "time": 1677822937.4756126
+  }
+}已经发送成功
+2023-03-03 13:56:01,168 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 100, 'time': '1234567890vv123'}}
+2023-03-03 13:56:09,590 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 100, 'time': '1234567890vv123'}}
+2023-03-03 13:56:18,926 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 100, 'time': '1234567890vv123'}}
+2023-03-03 13:56:21,987 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 100, 'time': '1234567890vv123'}}
+2023-03-03 13:56:28,856 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 40, 'time': '1234567890vv123'}}
+2023-03-03 13:56:35,916 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 40, 'time': '1234567890vv123'}}
+2023-03-03 13:56:45,182 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 13:56:50,869 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 13:56:50,926 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 13:56:51,027 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:56:51,041 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 13:56:51,053 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 13:56:51,079 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 13:56:51,133 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 13:56:51,146 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 13:56:51,152 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 13:56:51,153 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 13:56:51,159 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 13:56:51,162 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 13:56:51,166 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 13:56:51,173 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 13:56:51,180 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677823011.1801722}}'}加入发送队列
+2023-03-03 13:56:51,183 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677823011.1801722
+  }
+}已经发送成功
+2023-03-03 13:57:39,385 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 13:57:39,460 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 13:57:39,603 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 13:57:39,603 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 13:57:39,630 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 13:57:39,630 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 13:57:39,672 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 13:57:39,710 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 13:57:39,717 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 13:57:39,722 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 13:57:39,769 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 13:57:39,787 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 13:57:39,800 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 13:57:39,824 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 13:57:39,843 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677823059.8429992}}'}加入发送队列
+2023-03-03 13:57:39,850 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677823059.8429992
+  }
+}已经发送成功
+2023-03-03 13:57:56,198 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 13:57:56,238 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677823076.2323492}}'}加入发送队列
+2023-03-03 13:57:56,251 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677823076.2323492
+  }
+}已经发送成功
+2023-03-03 13:57:59,326 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 13:57:59,364 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677823079.3447373}}'}加入发送队列
+2023-03-03 13:57:59,413 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677823079.3447373
+  }
+}已经发送成功
+2023-03-03 13:58:24,225 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'rain': 174, 'time': 1668844280}}
+2023-03-03 13:58:24,279 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677823104.263389}}'}加入发送队列
+2023-03-03 13:58:24,312 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677823104.263389
+  }
+}已经发送成功
+2023-03-03 13:58:25,886 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'rain': 174, 'time': 1668844280}}
+2023-03-03 13:58:25,922 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677823105.9057148}}'}加入发送队列
+2023-03-03 13:58:25,995 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677823105.9057148
+  }
+}已经发送成功
+2023-03-03 13:58:44,992 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 13:58:45,103 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 13:58:48,520 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 13:58:48,580 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 13:58:51,673 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 13:58:51,726 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:05:17,609 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 14:05:17,666 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 14:05:17,720 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:05:17,721 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 14:05:17,722 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 14:05:17,779 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 14:05:17,806 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 14:05:17,818 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 14:05:17,829 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 14:05:17,840 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 14:05:17,864 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 14:05:17,880 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 14:05:17,897 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 14:05:17,903 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 14:05:17,934 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677823517.9346611}}'}加入发送队列
+2023-03-03 14:05:17,937 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677823517.9346611
+  }
+}已经发送成功
+2023-03-03 14:05:21,945 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:05:21,988 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:09:03,675 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 14:09:03,738 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 14:09:03,810 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:09:03,837 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 14:09:03,859 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 14:09:03,859 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 14:09:03,914 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 14:09:03,915 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 14:09:03,916 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 14:09:03,916 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 14:09:03,920 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 14:09:03,920 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 14:09:03,921 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 14:09:03,921 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 14:09:03,947 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677823743.947039}}'}加入发送队列
+2023-03-03 14:09:03,963 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677823743.947039
+  }
+}已经发送成功
+2023-03-03 14:09:10,307 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:09:10,374 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:09:19,859 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:09:19,943 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:09:21,815 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:09:21,866 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:09:23,132 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:09:23,272 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:09:24,375 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:09:24,432 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:09:30,818 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:09:30,897 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:09:55,460 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:09:55,548 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:09:57,423 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:09:57,530 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:09:58,675 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:09:58,850 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:10:01,171 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:10:01,225 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:10:35,569 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 14:10:35,630 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 14:10:35,701 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:10:35,702 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 14:10:35,728 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 14:10:35,745 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 14:10:35,811 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 14:10:35,828 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 14:10:35,835 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 14:10:35,862 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 14:10:35,877 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 14:10:35,888 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 14:10:35,896 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 14:10:35,912 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 14:10:35,966 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677823835.9591615}}'}加入发送队列
+2023-03-03 14:10:35,973 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677823835.9591615
+  }
+}已经发送成功
+2023-03-03 14:10:40,174 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:10:40,266 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:10:42,494 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:10:42,579 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:10:52,553 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:10:52,625 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:B1None$
+2023-03-03 14:10:56,774 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/1data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:10:56,898 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A1c$
+2023-03-03 14:11:40,554 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 14:11:40,612 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 14:11:40,654 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:11:40,660 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 14:11:40,664 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 14:11:40,728 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 14:11:40,818 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 14:11:40,825 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 14:11:40,841 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 14:11:40,852 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 14:11:40,872 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 14:11:40,889 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 14:11:40,900 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 14:11:40,914 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 14:11:40,925 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677823900.924765}}'}加入发送队列
+2023-03-03 14:11:40,929 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677823900.924765
+  }
+}已经发送成功
+2023-03-03 14:11:46,478 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:11:46,542 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:11:48,492 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:11:48,540 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:11:49,897 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:11:49,960 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:11:50,902 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:11:50,927 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:11:51,606 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:11:51,663 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:12:10,285 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:12:10,345 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:12:11,054 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:12:11,147 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:12:11,682 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:12:11,699 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:12:33,821 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:12:33,893 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:12:43,154 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:12:43,187 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:12:44,003 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:12:44,036 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:15:54,782 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 14:15:54,854 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 14:15:54,903 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:15:54,914 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 14:15:54,941 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 14:15:54,963 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 14:15:55,017 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 14:15:55,017 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 14:15:55,018 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 14:15:55,020 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 14:15:55,033 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 14:15:55,034 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 14:15:55,035 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 14:15:55,035 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 14:15:55,043 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677824155.0423267}}'}加入发送队列
+2023-03-03 14:15:55,047 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677824155.0423267
+  }
+}已经发送成功
+2023-03-03 14:16:30,593 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:16:30,751 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:16:37,369 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:16:37,530 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:16:38,765 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:16:38,818 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:16:39,942 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:16:39,963 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:16:40,844 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:16:40,946 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:16:47,541 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:16:47,620 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:16:52,420 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:16:52,454 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:16:58,510 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:16:58,592 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 14:18:02,986 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 14:18:03,047 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 14:18:03,170 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 14:18:03,176 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 14:18:03,188 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 14:18:03,214 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 14:18:03,215 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 14:18:03,218 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 14:18:03,265 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 14:18:03,266 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 14:18:03,270 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 14:18:03,271 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 14:18:03,272 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 14:18:03,273 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 14:18:03,293 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677824283.2824585}}'}加入发送队列
+2023-03-03 14:18:03,304 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677824283.2824585
+  }
+}已经发送成功
+2023-03-03 14:18:07,288 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 14:18:07,317 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:24:50,149 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 16:24:50,196 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 16:24:50,302 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 16:24:50,327 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 16:24:50,334 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 16:24:50,347 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 16:24:50,370 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 16:24:50,376 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 16:24:50,382 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 16:24:50,383 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 16:24:50,387 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 16:24:50,400 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 16:24:50,406 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 16:24:50,412 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 16:24:50,424 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677831890.4244246}}'}加入发送队列
+2023-03-03 16:24:50,465 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677831890.4244246
+  }
+}已经发送成功
+2023-03-03 16:25:04,075 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:25:04,177 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:25:04,191 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:25:04,251 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:25:05,288 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:25:05,362 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:25:18,082 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/brightness/pi-uuid-002data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:25:18,361 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'brightness/pi-uuid-002', 'data': '{"data":{"infrared":325,"visible":9568435,"full_spectrum":9568581,"time":1677831918.3597257}}'}加入发送队列
+2023-03-03 16:25:18,373 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：brightness/pi-uuid-002data:{
+  "data": {
+    "infrared": 325,
+    "visible": 9568435,
+    "full_spectrum": 9568581,
+    "time": 1677831918.3597257
+  }
+}已经发送成功
+2023-03-03 16:25:22,299 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/brightness/pi-uuid-002data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:25:22,687 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'brightness/pi-uuid-002', 'data': '{"data":{"infrared":325,"visible":9568435,"full_spectrum":9568581,"time":1677831922.6870308}}'}加入发送队列
+2023-03-03 16:25:22,694 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：brightness/pi-uuid-002data:{
+  "data": {
+    "infrared": 325,
+    "visible": 9568435,
+    "full_spectrum": 9568581,
+    "time": 1677831922.6870308
+  }
+}已经发送成功
+2023-03-03 16:25:45,102 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:25:45,180 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3e$
+2023-03-03 16:25:50,744 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/3data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 16:25:50,820 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:34:01,915 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 16:34:01,966 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 16:34:02,039 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 16:34:02,045 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 16:34:02,067 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 16:34:02,082 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 16:34:02,137 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 16:34:02,148 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 16:34:02,163 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 16:34:02,174 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 16:34:02,199 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 16:34:02,225 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 16:34:02,257 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 16:34:02,299 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 16:34:02,317 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677832442.317308}}'}加入发送队列
+2023-03-03 16:34:02,340 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677832442.317308
+  }
+}已经发送成功
+2023-03-03 16:34:46,787 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 16:34:46,861 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:B3None$
+2023-03-03 16:35:00,138 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 16:35:00,224 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:B3None$
+2023-03-03 16:35:11,758 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:35:11,804 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:35:14,032 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:35:14,090 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:35:17,197 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:35:17,243 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:36:50,232 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:36:52,433 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:36:55,620 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:36:56,180 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39192666502315,"latitude":22.52577937215772,"time":1677832616.1591547}}'}加入发送队列
+2023-03-03 16:36:56,221 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39192666502315,
+    "latitude": 22.52577937215772,
+    "time": 1677832616.1591547
+  }
+}已经发送成功
+2023-03-03 16:36:58,099 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/gps/pi-uuid-002data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:37:01,669 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39187329890454,"latitude":22.52578600393719,"time":1677832621.6692955}}'}加入发送队列
+2023-03-03 16:37:01,693 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39187329890454,
+    "latitude": 22.52578600393719,
+    "time": 1677832621.6692955
+  }
+}已经发送成功
+2023-03-03 16:37:05,382 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39186662461151,"latitude":22.52573433036586,"time":1677832625.381968}}'}加入发送队列
+2023-03-03 16:37:05,429 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39186662461151,
+    "latitude": 22.52573433036586,
+    "time": 1677832625.381968
+  }
+}已经发送成功
+2023-03-03 16:37:05,965 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'gps/pi-uuid-002', 'data': '{"data":{"longitude":113.39186495656867,"latitude":22.52572932902201,"time":1677832625.965697}}'}加入发送队列
+2023-03-03 16:37:05,999 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：gps/pi-uuid-002data:{
+  "data": {
+    "longitude": 113.39186495656867,
+    "latitude": 22.52572932902201,
+    "time": 1677832625.965697
+  }
+}已经发送成功
+2023-03-03 16:42:27,499 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:42:27,567 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:44:14,070 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:44:14,113 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:44:15,688 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:44:15,806 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/serial.py[line:36] - INFO: 串口写入指令:A3c$
+2023-03-03 16:45:45,133 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2023-03-03 16:45:45,198 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建ext_Humiture[元件]
+2023-03-03 16:45:45,263 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2023-03-03 16:45:45,283 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2023-03-03 16:45:45,300 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ec68da29c570e53c4c1b224516471b81', 'type': '01', 'value': 0}}
+2023-03-03 16:45:45,311 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建builtin_Humiture[元件]
+2023-03-03 16:45:45,331 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建gps[元件]
+2023-03-03 16:45:45,332 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建luminance[元件]
+2023-03-03 16:45:45,333 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建co2[元件]
+2023-03-03 16:45:45,339 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建rain[元件]
+2023-03-03 16:45:45,365 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:338] - INFO: 成功创建brightness[元件]
+2023-03-03 16:45:45,371 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp1[路灯]
+2023-03-03 16:45:45,382 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp2[路灯]
+2023-03-03 16:45:45,393 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:328] - INFO: 成功创建lamp3[路灯]
+2023-03-03 16:45:45,416 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1677833145.4165995}}'}加入发送队列
+2023-03-03 16:45:45,425 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1677833145.4165995
+  }
+}已经发送成功
+2023-03-03 16:45:47,800 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 1, 'time': '1234567890vv123'}}
+2023-03-03 16:45:52,950 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/3data:{'data': {'value': 0, 'time': '1234567890vv123'}}
+2023-03-03 16:46:04,818 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/3data:{'data': {'value': 100, 'time': '1234567890vv123'}}
+2023-03-03 16:46:14,215 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/3data:{'data': {'value': 10, 'time': '1234567890vv123'}}
+2023-03-03 16:46:19,460 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/3data:{'data': {'value': 100, 'time': '1234567890vv123'}}

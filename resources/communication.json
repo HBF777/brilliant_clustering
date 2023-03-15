@@ -1,0 +1,37 @@
+{
+  "mqtt": {
+    "host_ip": "124.223.10.91",
+    "host_port": 1883,
+    "account": "admin",
+    "passwd": "public",
+    "keepalive": 5
+  },
+  "serial": {
+    "baud_rate": 9600,
+    "port": "/dev/ttyAMA0",
+    "end": "$",
+    "command": [
+      {
+        "A": "power_on",
+        "B": "power_off",
+        "C": "heartbeat",
+        "D": "error",
+        "F": "exception"
+      },
+      {
+        "1": "lamp1",
+        "2": "lamp2",
+        "3": "lamp3"
+      },
+      {
+        "a": 100,
+        "b": 80,
+        "c": 60,
+        "d": 40,
+        "e": 20,
+        "n": null
+      }
+
+    ]
+  }
+}

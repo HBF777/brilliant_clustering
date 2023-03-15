@@ -1,0 +1,12 @@
+{
+  "version": "0.1.0",
+  "uuid": "pi-uuid-002",
+  "SN": "123456789",
+  "isActivate": true,
+  "db": {
+    "name":"mysql",
+    "username": "root",
+    "password": "huba20020402"
+  }
+
+}

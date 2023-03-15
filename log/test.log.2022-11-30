@@ -1,0 +1,928 @@
+2022-11-29 20:16:27,899 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-29 20:16:28,526 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-29 20:16:28,685 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-29 20:16:28,727 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669724188.7278395}}'}加入发送队列
+2022-11-29 20:16:28,729 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669724188.7278395
+  }
+}已经发送成功
+2022-11-29 20:16:28,745 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'b16ac95de30267fb272e04ed717a8856', 'type': '01', 'value': 0}}
+2022-11-29 20:16:47,499 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-29 20:16:47,742 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-29 20:16:47,810 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669724207.7600968}}'}加入发送队列
+2022-11-29 20:16:47,811 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-29 20:16:47,829 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669724207.7600968
+  }
+}已经发送成功
+2022-11-29 20:16:47,944 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'b16ac95de30267fb272e04ed717a8856', 'type': '01', 'value': 0}}
+2022-11-29 20:19:58,723 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-29 20:19:59,045 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-29 20:19:59,100 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-29 20:19:59,126 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669724399.1012776}}'}加入发送队列
+2022-11-29 20:19:59,144 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669724399.1012776
+  }
+}已经发送成功
+2022-11-29 20:19:59,225 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'b16ac95de30267fb272e04ed717a8856', 'type': '01', 'value': 0}}
+2022-11-29 20:20:58,949 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-29 20:20:59,202 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-29 20:20:59,241 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-29 20:20:59,247 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'b16ac95de30267fb272e04ed717a8856', 'type': '01', 'value': 0}}
+2022-11-29 20:20:59,248 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669724459.2360106}}'}加入发送队列
+2022-11-29 20:20:59,250 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669724459.2360106
+  }
+}已经发送成功
+2022-11-29 21:00:00,076 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'ee0b9ebef8cb14e093fbc3fde848dae9', 'type': '01', 'value': 1}}
+2022-11-29 21:05:00,091 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '2e15287247eda64a84c144128c078609', 'type': '01', 'value': 0}}
+2022-11-29 21:22:54,511 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-29 21:22:54,719 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-29 21:22:54,726 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-29 21:22:54,746 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '2e15287247eda64a84c144128c078609', 'type': '01', 'value': 0}}
+2022-11-29 21:22:54,763 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669728174.7262034}}'}加入发送队列
+2022-11-29 21:22:54,798 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669728174.7262034
+  }
+}已经发送成功
+2022-11-29 23:07:07,558 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-29 23:07:08,166 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-29 23:07:08,202 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-29 23:07:08,262 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669734428.2304456}}'}加入发送队列
+2022-11-29 23:07:08,263 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '2e15287247eda64a84c144128c078609', 'type': '01', 'value': 0}}
+2022-11-29 23:07:08,287 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669734428.2304456
+  }
+}已经发送成功
+2022-11-30 00:00:00,047 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': 'e691fb040427ae96341aec488f311c6f', 'type': '01', 'value': 1}}
+2022-11-30 00:05:00,069 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 07:32:04,397 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 07:32:04,645 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 07:32:04,720 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 07:32:04,732 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669764724.7269423}}'}加入发送队列
+2022-11-30 07:32:04,743 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 07:32:04,776 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669764724.7269423
+  }
+}已经发送成功
+2022-11-30 07:34:34,629 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 07:34:34,772 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 07:34:34,820 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 07:34:34,842 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669764874.8420327}}'}加入发送队列
+2022-11-30 07:34:34,858 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 07:34:34,944 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669764874.8420327
+  }
+}已经发送成功
+2022-11-30 07:37:16,559 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 07:37:16,952 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 07:37:16,990 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 07:37:16,991 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 07:37:17,042 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669765036.9909873}}'}加入发送队列
+2022-11-30 07:37:17,054 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669765036.9909873
+  }
+}已经发送成功
+2022-11-30 08:02:38,917 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:02:39,339 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:02:39,389 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:02:39,389 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669766559.3875551}}'}加入发送队列
+2022-11-30 08:02:39,402 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:02:39,408 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669766559.3875551
+  }
+}已经发送成功
+2022-11-30 08:03:58,966 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:03:59,115 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:03:59,196 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:03:59,223 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:03:59,641 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669766639.2028637}}'}加入发送队列
+2022-11-30 08:03:59,652 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669766639.2028637
+  }
+}已经发送成功
+2022-11-30 08:04:27,520 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:04:27,743 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:04:27,795 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:04:27,813 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:04:27,829 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669766667.7968473}}'}加入发送队列
+2022-11-30 08:04:27,847 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669766667.7968473
+  }
+}已经发送成功
+2022-11-30 08:07:31,081 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:07:31,214 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:07:31,258 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:07:31,284 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669766851.257663}}'}加入发送队列
+2022-11-30 08:07:31,324 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:07:31,471 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669766851.257663
+  }
+}已经发送成功
+2022-11-30 08:13:20,548 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:13:20,782 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:13:20,801 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:13:20,823 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669767200.8233984}}'}加入发送队列
+2022-11-30 08:13:20,824 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669767200.8233984
+  }
+}已经发送成功
+2022-11-30 08:13:20,835 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:17:24,655 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:17:26,196 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:17:26,260 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669767446.2601595}}'}加入发送队列
+2022-11-30 08:17:26,271 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:17:26,272 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669767446.2601595
+  }
+}已经发送成功
+2022-11-30 08:17:26,318 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:17:42,964 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:17:43,286 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:17:43,394 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:17:43,406 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669767463.4064276}}'}加入发送队列
+2022-11-30 08:17:43,440 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:17:43,446 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669767463.4064276
+  }
+}已经发送成功
+2022-11-30 08:19:37,158 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:19:37,486 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:19:37,524 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:19:37,541 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669767577.5413942}}'}加入发送队列
+2022-11-30 08:19:37,550 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:19:37,551 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669767577.5413942
+  }
+}已经发送成功
+2022-11-30 08:20:57,261 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:20:57,450 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:20:57,472 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:20:57,515 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:20:57,539 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669767657.4954076}}'}加入发送队列
+2022-11-30 08:20:57,628 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669767657.4954076
+  }
+}已经发送成功
+2022-11-30 08:25:53,343 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:25:53,564 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:25:53,590 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669767953.5900354}}'}加入发送队列
+2022-11-30 08:25:53,591 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:25:53,621 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:25:53,628 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669767953.5900354
+  }
+}已经发送成功
+2022-11-30 08:28:32,576 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:28:33,223 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:28:33,230 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:28:33,285 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:28:33,309 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669768113.2753906}}'}加入发送队列
+2022-11-30 08:28:33,350 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669768113.2753906
+  }
+}已经发送成功
+2022-11-30 08:32:32,880 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:32:33,099 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:32:33,157 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669768353.156088}}'}加入发送队列
+2022-11-30 08:32:33,158 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:32:33,172 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669768353.156088
+  }
+}已经发送成功
+2022-11-30 08:32:33,205 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:33:43,808 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:33:44,699 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:33:44,721 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:33:44,735 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669768424.7356985}}'}加入发送队列
+2022-11-30 08:33:44,762 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:33:44,768 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669768424.7356985
+  }
+}已经发送成功
+2022-11-30 08:37:53,726 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:37:54,152 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:37:54,240 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:37:54,257 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669768674.2571015}}'}加入发送队列
+2022-11-30 08:37:54,265 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:37:54,400 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669768674.2571015
+  }
+}已经发送成功
+2022-11-30 08:41:02,116 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:41:02,250 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:41:02,309 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:41:02,316 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669768862.3160686}}'}加入发送队列
+2022-11-30 08:41:02,341 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669768862.3160686
+  }
+}已经发送成功
+2022-11-30 08:41:02,342 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:47:10,015 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:47:10,436 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:47:10,437 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:47:10,465 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669769230.4385405}}'}加入发送队列
+2022-11-30 08:47:10,471 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:47:10,478 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669769230.4385405
+  }
+}已经发送成功
+2022-11-30 08:51:25,680 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:51:25,774 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:51:25,802 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:51:25,803 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669769485.8031409}}'}加入发送队列
+2022-11-30 08:51:25,811 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669769485.8031409
+  }
+}已经发送成功
+2022-11-30 08:51:25,822 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 08:52:36,506 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 08:52:36,712 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 08:52:36,741 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669769556.7401247}}'}加入发送队列
+2022-11-30 08:52:36,748 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669769556.7401247
+  }
+}已经发送成功
+2022-11-30 08:52:36,812 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 08:52:37,090 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:02:10,735 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:02:11,008 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:02:11,043 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:02:11,071 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669770131.0709393}}'}加入发送队列
+2022-11-30 09:02:11,093 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:02:11,351 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669770131.0709393
+  }
+}已经发送成功
+2022-11-30 09:04:52,061 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:04:52,490 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:04:52,534 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:04:52,557 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:04:52,558 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669770292.550907}}'}加入发送队列
+2022-11-30 09:04:52,564 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669770292.550907
+  }
+}已经发送成功
+2022-11-30 09:05:41,730 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:05:42,117 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:05:42,159 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:05:42,159 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669770342.1493707}}'}加入发送队列
+2022-11-30 09:05:42,174 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669770342.1493707
+  }
+}已经发送成功
+2022-11-30 09:05:42,180 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:09:17,250 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:09:17,919 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:09:17,947 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:09:17,948 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:09:17,972 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669770557.9501493}}'}加入发送队列
+2022-11-30 09:09:17,988 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669770557.9501493
+  }
+}已经发送成功
+2022-11-30 09:10:16,131 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:10:16,565 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:10:16,576 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:10:16,609 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:10:16,750 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669770616.5773907}}'}加入发送队列
+2022-11-30 09:10:16,785 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669770616.5773907
+  }
+}已经发送成功
+2022-11-30 09:17:20,455 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:17:20,627 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:17:20,719 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669771040.7190404}}'}加入发送队列
+2022-11-30 09:17:20,730 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:17:20,776 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:17:20,792 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669771040.7190404
+  }
+}已经发送成功
+2022-11-30 09:27:10,290 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:27:11,005 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:27:11,011 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:27:11,063 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:27:11,827 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669771631.012648}}'}加入发送队列
+2022-11-30 09:27:11,849 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669771631.012648
+  }
+}已经发送成功
+2022-11-30 09:30:50,234 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:30:50,679 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:30:50,738 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:30:50,745 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669771850.745181}}'}加入发送队列
+2022-11-30 09:30:50,747 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:30:50,770 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669771850.745181
+  }
+}已经发送成功
+2022-11-30 09:32:00,946 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:32:01,328 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:32:01,391 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:32:01,409 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669771921.3985114}}'}加入发送队列
+2022-11-30 09:32:01,415 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:32:01,416 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669771921.3985114
+  }
+}已经发送成功
+2022-11-30 09:38:04,247 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:38:04,489 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:38:04,573 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:38:04,575 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:38:04,575 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669772284.5734384}}'}加入发送队列
+2022-11-30 09:38:04,593 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669772284.5734384
+  }
+}已经发送成功
+2022-11-30 09:40:34,255 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:40:34,613 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:40:34,661 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:40:34,717 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:40:34,723 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669772434.6755033}}'}加入发送队列
+2022-11-30 09:40:34,817 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669772434.6755033
+  }
+}已经发送成功
+2022-11-30 09:46:49,973 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:46:50,167 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:46:50,207 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:46:50,208 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669772810.208114}}'}加入发送队列
+2022-11-30 09:46:50,209 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:46:50,238 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669772810.208114
+  }
+}已经发送成功
+2022-11-30 09:55:32,854 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:55:33,062 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:55:33,133 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669773333.1329808}}'}加入发送队列
+2022-11-30 09:55:33,133 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:55:33,152 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:55:33,201 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669773333.1329808
+  }
+}已经发送成功
+2022-11-30 09:58:35,951 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 09:58:36,401 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 09:58:36,437 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 09:58:36,476 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669773516.4760823}}'}加入发送队列
+2022-11-30 09:58:36,494 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 09:58:36,495 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669773516.4760823
+  }
+}已经发送成功
+2022-11-30 10:00:04,779 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:00:05,256 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:00:05,296 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669773605.2965775}}'}加入发送队列
+2022-11-30 10:00:05,302 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:00:05,316 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669773605.2965775
+  }
+}已经发送成功
+2022-11-30 10:00:05,329 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:03:19,681 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:03:20,242 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:03:20,265 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:03:20,274 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669773800.2652502}}'}加入发送队列
+2022-11-30 10:03:20,274 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:03:20,304 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669773800.2652502
+  }
+}已经发送成功
+2022-11-30 10:13:11,365 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:13:11,603 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:13:11,701 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669774391.700923}}'}加入发送队列
+2022-11-30 10:13:11,706 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:13:11,735 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669774391.700923
+  }
+}已经发送成功
+2022-11-30 10:13:11,769 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:16:08,058 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:16:08,518 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:16:08,567 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:16:08,615 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:16:08,621 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669774568.573571}}'}加入发送队列
+2022-11-30 10:16:08,701 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669774568.573571
+  }
+}已经发送成功
+2022-11-30 10:21:01,404 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:21:01,798 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:21:01,872 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669774861.8727498}}'}加入发送队列
+2022-11-30 10:21:01,878 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669774861.8727498
+  }
+}已经发送成功
+2022-11-30 10:21:01,879 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:21:02,335 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:24:56,508 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:24:56,885 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:24:56,984 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:24:57,077 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:24:57,077 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669775097.0746913}}'}加入发送队列
+2022-11-30 10:24:57,085 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669775097.0746913
+  }
+}已经发送成功
+2022-11-30 10:27:41,507 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:27:41,751 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:27:41,820 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:27:41,847 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669775261.8477573}}'}加入发送队列
+2022-11-30 10:27:41,891 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:27:41,911 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669775261.8477573
+  }
+}已经发送成功
+2022-11-30 10:28:32,059 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:28:32,278 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:28:32,340 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:28:32,342 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669775312.3419473}}'}加入发送队列
+2022-11-30 10:28:32,357 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:28:32,383 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669775312.3419473
+  }
+}已经发送成功
+2022-11-30 10:32:54,002 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:32:54,292 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:32:54,326 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:32:54,332 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669775574.3327973}}'}加入发送队列
+2022-11-30 10:32:54,334 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669775574.3327973
+  }
+}已经发送成功
+2022-11-30 10:32:54,367 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:33:13,450 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:33:13,847 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:33:13,906 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:33:13,915 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:33:13,918 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669775593.90522}}'}加入发送队列
+2022-11-30 10:33:13,932 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669775593.90522
+  }
+}已经发送成功
+2022-11-30 10:37:31,242 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:37:31,465 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:37:31,552 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669775851.545354}}'}加入发送队列
+2022-11-30 10:37:31,553 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:37:31,564 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669775851.545354
+  }
+}已经发送成功
+2022-11-30 10:37:31,613 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:40:14,090 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:40:14,250 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:40:14,342 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669776014.3372543}}'}加入发送队列
+2022-11-30 10:40:14,343 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:40:14,359 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669776014.3372543
+  }
+}已经发送成功
+2022-11-30 10:40:14,442 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:41:33,755 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:41:33,926 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:41:33,940 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669776093.9403589}}'}加入发送队列
+2022-11-30 10:41:33,973 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:41:33,984 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669776093.9403589
+  }
+}已经发送成功
+2022-11-30 10:41:34,031 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:46:22,263 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:46:22,542 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:46:22,597 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:46:22,613 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:46:22,620 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669776382.5990038}}'}加入发送队列
+2022-11-30 10:46:22,626 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669776382.5990038
+  }
+}已经发送成功
+2022-11-30 10:48:02,703 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:48:02,809 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:48:02,844 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669776482.8123035}}'}加入发送队列
+2022-11-30 10:48:02,976 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669776482.8123035
+  }
+}已经发送成功
+2022-11-30 10:48:03,156 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:48:03,193 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:51:03,746 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:51:03,938 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:51:04,049 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:51:04,068 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:51:04,189 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669776664.0864694}}'}加入发送队列
+2022-11-30 10:51:04,268 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669776664.0864694
+  }
+}已经发送成功
+2022-11-30 10:57:26,098 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:57:26,260 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:57:26,307 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:57:26,315 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:57:26,321 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669777046.3214078}}'}加入发送队列
+2022-11-30 10:57:26,403 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669777046.3214078
+  }
+}已经发送成功
+2022-11-30 10:57:45,473 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:57:45,881 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:57:45,919 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:57:45,936 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669777065.920911}}'}加入发送队列
+2022-11-30 10:57:45,943 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:57:45,961 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669777065.920911
+  }
+}已经发送成功
+2022-11-30 10:58:23,917 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 10:58:24,942 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 10:58:24,996 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 10:58:25,030 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 10:58:25,041 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669777105.004214}}'}加入发送队列
+2022-11-30 10:58:25,067 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669777105.004214
+  }
+}已经发送成功
+2022-11-30 11:01:08,268 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:01:08,475 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:01:08,506 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669777268.506896}}'}加入发送队列
+2022-11-30 11:01:08,512 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:01:08,528 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:01:08,534 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669777268.506896
+  }
+}已经发送成功
+2022-11-30 11:04:14,004 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:04:14,242 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:04:14,311 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:04:14,390 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:04:14,391 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669777454.391635}}'}加入发送队列
+2022-11-30 11:04:14,402 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669777454.391635
+  }
+}已经发送成功
+2022-11-30 11:06:16,446 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:06:16,839 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:06:16,929 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:06:16,956 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669777576.93639}}'}加入发送队列
+2022-11-30 11:06:16,962 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:06:16,999 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669777576.93639
+  }
+}已经发送成功
+2022-11-30 11:07:57,769 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:07:57,907 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:07:57,957 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669777677.9410255}}'}加入发送队列
+2022-11-30 11:07:57,958 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:07:57,994 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669777677.9410255
+  }
+}已经发送成功
+2022-11-30 11:07:58,069 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:08:37,438 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:08:39,447 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:08:39,518 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:08:39,520 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:08:39,520 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669777719.5132542}}'}加入发送队列
+2022-11-30 11:08:39,539 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669777719.5132542
+  }
+}已经发送成功
+2022-11-30 11:11:13,069 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:11:13,720 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:11:13,815 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:11:13,816 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669777873.8159647}}'}加入发送队列
+2022-11-30 11:11:13,823 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669777873.8159647
+  }
+}已经发送成功
+2022-11-30 11:11:13,829 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:20:12,249 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:20:12,665 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:20:12,776 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:20:12,782 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669778412.7827737}}'}加入发送队列
+2022-11-30 11:20:12,792 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669778412.7827737
+  }
+}已经发送成功
+2022-11-30 11:20:12,826 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:21:11,827 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:21:12,808 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:21:12,830 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:21:12,848 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669778472.8419409}}'}加入发送队列
+2022-11-30 11:21:12,849 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:21:12,871 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669778472.8419409
+  }
+}已经发送成功
+2022-11-30 11:24:33,992 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:24:34,186 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:24:34,228 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:24:34,247 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:24:34,266 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669778674.228351}}'}加入发送队列
+2022-11-30 11:24:34,283 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669778674.228351
+  }
+}已经发送成功
+2022-11-30 11:28:50,256 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:28:50,424 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:28:50,461 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:28:50,473 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669778930.473668}}'}加入发送队列
+2022-11-30 11:28:50,491 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:28:50,492 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669778930.473668
+  }
+}已经发送成功
+2022-11-30 11:30:32,575 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:30:32,690 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:30:32,730 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:30:32,778 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:30:32,891 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669779032.7208176}}'}加入发送队列
+2022-11-30 11:30:32,913 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669779032.7208176
+  }
+}已经发送成功
+2022-11-30 11:31:51,638 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:31:51,805 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:31:51,856 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:31:51,883 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 11:31:51,896 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669779111.8686404}}'}加入发送队列
+2022-11-30 11:31:51,904 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669779111.8686404
+  }
+}已经发送成功
+2022-11-30 11:40:46,649 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 11:40:46,890 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 11:40:46,912 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669779646.9120524}}'}加入发送队列
+2022-11-30 11:40:46,913 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669779646.9120524
+  }
+}已经发送成功
+2022-11-30 11:40:47,029 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 11:40:47,129 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 13:01:03,245 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 13:01:03,400 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 13:01:03,455 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669784463.4558892}}'}加入发送队列
+2022-11-30 13:01:03,461 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 13:01:03,480 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 13:01:03,485 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669784463.4558892
+  }
+}已经发送成功
+2022-11-30 14:24:29,707 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 14:24:30,437 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 14:24:30,454 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 14:24:30,455 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669789470.4553716}}'}加入发送队列
+2022-11-30 14:24:30,473 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 14:24:30,475 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669789470.4553716
+  }
+}已经发送成功
+2022-11-30 14:28:20,508 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 14:28:20,806 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 14:28:20,835 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669789700.835076}}'}加入发送队列
+2022-11-30 14:28:20,847 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669789700.835076
+  }
+}已经发送成功
+2022-11-30 14:28:20,890 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 14:28:20,918 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 14:28:59,283 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 14:28:59,441 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 14:28:59,475 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 14:28:59,490 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669789739.476067}}'}加入发送队列
+2022-11-30 14:28:59,521 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 14:28:59,527 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669789739.476067
+  }
+}已经发送成功
+2022-11-30 14:30:42,016 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 14:30:43,031 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 14:30:43,070 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 14:30:43,103 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 14:30:43,112 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669789843.0979397}}'}加入发送队列
+2022-11-30 14:30:43,128 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669789843.0979397
+  }
+}已经发送成功
+2022-11-30 14:33:25,562 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 14:33:25,853 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 14:33:25,859 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 14:33:25,887 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 14:33:25,890 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669790005.88726}}'}加入发送队列
+2022-11-30 14:33:25,903 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669790005.88726
+  }
+}已经发送成功
+2022-11-30 14:35:27,398 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 14:35:27,866 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 14:35:27,921 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 14:35:27,939 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 14:35:27,960 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":2,"time":1669790127.933692}}'}加入发送队列
+2022-11-30 14:35:27,988 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 2,
+    "time": 1669790127.933692
+  }
+}已经发送成功
+2022-11-30 14:36:06,965 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 14:36:07,364 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 14:36:07,415 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 14:36:07,453 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 14:36:07,624 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669790167.386444}}'}加入发送队列
+2022-11-30 14:36:07,635 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669790167.386444
+  }
+}已经发送成功
+2022-11-30 14:37:50,397 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 14:37:51,576 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 14:37:51,583 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 14:37:51,601 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 14:37:51,769 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":0,"time":1669790271.6009123}}'}加入发送队列
+2022-11-30 14:37:51,781 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 0,
+    "time": 1669790271.6009123
+  }
+}已经发送成功
+2022-11-30 14:38:39,238 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 14:38:39,746 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 14:38:39,773 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 14:38:39,781 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 14:38:39,819 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669790319.772384}}'}加入发送队列
+2022-11-30 14:38:39,940 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669790319.772384
+  }
+}已经发送成功
+2022-11-30 14:39:39,526 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:176] - INFO: 成功连接MQTT服务器
+2022-11-30 14:39:40,366 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：server/rain/pi-uuid-002data:{'data': {'value': 50, 'time': '1234567890vv123'}}
+2022-11-30 14:39:40,390 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：brightness/pi-uuid-002/2data:{'data': {'time': 1667228611711, 'value': 20}}
+2022-11-30 14:39:40,397 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:227] - INFO: 收到消息：主题：switch/pi-uuid-002/2data:{'data': {'reqId': '9b91946c4466709599413125f18ba6a9', 'type': '01', 'value': 0}}
+2022-11-30 14:39:40,423 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/core.py[line:271] - INFO: 将{'topic': 'rain/pi-uuid-002', 'data': '{"data":{"rain":1,"time":1669790380.396761}}'}加入发送队列
+2022-11-30 14:39:40,447 - /home/gubby/Desktop/TestG/2banbe/brilliant_clustering - new/com/mqtt.py[line:219] - INFO: 主题：rain/pi-uuid-002data:{
+  "data": {
+    "rain": 1,
+    "time": 1669790380.396761
+  }
+}已经发送成功
